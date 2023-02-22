@@ -72,7 +72,7 @@ A request with an invalid frequencies will not display any skills data, instead 
 
 Personally, as a hacker during hackathon events, I find myself meeting lots of new people, but always lose contact with them after the hackathon ends because I forget to ask for their contact information. This endpoint provides hackers with useful information in case they want to reconnect with people they meet at a hackathon.
 
-A ```GET``` request to ```http://localhost:3000/contact?name=Breanna Dillon``` will query the the contact info of the hacker named Breanna Dillon.
+A ```GET``` request to ```http://localhost:3000/contact?name=Elizabeth Scott``` will query the the contact info of the hacker named Elizabeth Scott. This works for all requests with valid hacker names.
 
 <img src="/assets/endpoint5.PNG" />
 
