@@ -46,7 +46,7 @@ A request with an invalid primary key will not display any hacker data, instead 
 
 ### Updating User Data Endpoint
 
-A ```PUT``` request to ```http://localhost:3000/hackers/123``` with body data will partially update the hacker with the primary key ```123``` with the info specified in the request.
+A ```PUT``` request to ```http://localhost:3000/hackers/123``` with body data will partially update the hacker with the primary key ```123``` with the info specified in the request. A successful request returns the full updated hacker's data.
 
 <img src="/assets/endpoint3.PNG" />
 
