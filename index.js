@@ -101,6 +101,7 @@ app.put('/hackers/:id', (req, res) => {
         return res.send('No hacker found with that id.')
       }
 
+      // SQLite returns strings, so convert the data to JSON
       row.skills = JSON.parse(row.skills)
       return res.send(row)
     })
