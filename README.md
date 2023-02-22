@@ -22,7 +22,7 @@ Step 3: Start the app by running in your terminal:
 npm run start
 ```
 
-The app should be listening on at ```http://localhost:3000```
+The app should be listening at ```http://localhost:3000```
 
 ## API
 
