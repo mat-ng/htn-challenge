@@ -111,6 +111,10 @@ app.put('/hackers/:id', (req, res) => {
 app.get('/skills', (req, res) => {
   const { min_frequency, max_frequency } = req.query
 
+  if (!Number.isInteger(parseInt(min_frequency)) || !Number.isInteger(parseInt(max_frequency))) {
+    return res.send('Please enter valid frequencies.')
+  }
+
   db.all(`
     SELECT skill, COUNT(hacker_id) as frequency
     FROM Skills
