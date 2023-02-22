@@ -38,7 +38,7 @@ An SQL join was needed for this endpoint because hackers records and skills reco
 
 A ```GET``` request to ```http://localhost:3000/hackers/123``` will return the full hacker data for the hacker with the primary key ```123```. This works for all hackers with valid primary keys.
 
-<img src="/assets/endpoint2.png" />
+<img src="/assets/endpoint2.jpg" />
 
 A request with an invalid primary key will not display any hacker data, instead its response will be "No hacker found with that id."
 
